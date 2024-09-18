@@ -2,7 +2,7 @@ import random
 
 print("Welcome to AWS re/Start Terminology quiz")
 
-player = input('Do you want to play')
+player = input('Do you want to play? (yes/no) ')
 
 if player.lower() != 'yes':
       quit()
@@ -24,7 +24,7 @@ quiz_questions = [
     ("What does NIC stand for?", "network interface card "),
     ("What does AWS stand for?", "amazon web services"),
     ("What does RDS in AWS  stand for?", "relational database service"),
-    ("What does S3  in AWS  stand for?", "basic input output system"),
+    ("What does S3  in AWS  stand for?", "simple storage service"),
     ("What does EC2 in AWS  stand for?", "elastic compute cloud"),
     ("What does ECS in AWS  stand for?", "elastic container service"),
     ("What does EKS in AWS  stand for?", "elastic kubernetes service"),
@@ -54,5 +54,5 @@ for question, correct_answer in selected_questions:
       else:
             print('Incorrect!! :(')
 
-print('You got ' + str(score) + 'questions correct! :)' )
-print('Your score is ' + str((score / 5)) * 100 + '%.')
+print('You got ' + str(score) + ' questions correct! :)' )
+print("Your Score is " + str((score / 5) * 100) + "%.")
