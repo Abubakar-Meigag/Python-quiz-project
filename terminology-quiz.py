@@ -40,3 +40,19 @@ quiz_questions = [
     ("What does HTTP stand for?", "hypertext transfer protocol"),
     ("What does HDD stand for?", "hard disk drive")
 ]
+
+random.shuffle(quiz_questions)
+selected_questions = quiz_questions[:5]
+
+score = 0 
+
+for question, correct_answer in selected_questions:
+      answer = input(question + " ")
+      if answer.lower() == correct_answer:
+            print ('Correct answer!  :)')
+            score += 1
+      else:
+            print('Incorrect!! :(')
+
+print('You got ' + str(score) + 'questions correct! :)' )
+print('Your score is ' + str((score / 5)) * 100 + '%.')
