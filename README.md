@@ -9,7 +9,6 @@ Welcome to the **AWS re/Start Terminology Quiz** - a fun and interactive game de
 - [Getting Started](#getting-started)
 - [How to Play](#how-to-play)
 - [Contributing](#contributing)
-- [Licence](#licence)
 
 ## Introduction
 
