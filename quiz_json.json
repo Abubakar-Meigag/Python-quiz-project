@@ -1,0 +1,33 @@
+{
+      "quiz_questions": [
+        { "question": "What does CPU stand for?", "answer": "central processing unit" },
+        { "question": "What does GPU stand for?", "answer": "graphics processing unit" },
+        { "question": "What does RAM stand for?", "answer": "random access memory" },
+        { "question": "What does SSD stand for?", "answer": "solid state drive" },
+        { "question": "What does Nmap stand for?", "answer": "network mapper" },
+        { "question": "What does ICMP stand for?", "answer": "internet control message protocol" },
+        { "question": "What does SNMP stand for?", "answer": "simple network management protocol" },
+        { "question": "What does NAT stand for?", "answer": "network address translation" },
+        { "question": "What does IPS stand for?", "answer": "intrusion prevention system" },
+        { "question": "What does CIDR stand for?", "answer": "classless inter-domain" },
+        { "question": "What does NIC stand for?", "answer": "network interface card" },
+        { "question": "What does AWS stand for?", "answer": "amazon web services" },
+        { "question": "What does RDS in AWS stand for?", "answer": "relational database service" },
+        { "question": "What does S3 in AWS stand for?", "answer": "simple storage service" },
+        { "question": "What does EC2 in AWS stand for?", "answer": "elastic compute cloud" },
+        { "question": "What does ECS in AWS stand for?", "answer": "elastic container service" },
+        { "question": "What does EKS in AWS stand for?", "answer": "elastic kubernetes service" },
+        { "question": "What does VPC in AWS stand for?", "answer": "virtual private cloud" },
+        { "question": "What does ELB in AWS stand for?", "answer": "elastic load balancing" },
+        { "question": "What does IAM in AWS stand for?", "answer": "identity and access management" },
+        { "question": "What does SNS in AWS stand for?", "answer": "simple notification service" },
+        { "question": "What does ELB in AWS stand for?", "answer": "elastic load balancing" },
+        { "question": "What does Route 53 in AWS stand for?", "answer": "dns web service" },
+        { "question": "What does KMS in AWS stand for?", "answer": "key management service" },
+        { "question": "What does DynamoDB in AWS stand for?", "answer": "noSQL database service" },
+        { "question": "What does CloudWatch in AWS stand for?", "answer": "monitoring and logging service" },
+        { "question": "What does HTTP stand for?", "answer": "hypertext transfer protocol" },
+        { "question": "What does HDD stand for?", "answer": "hard disk drive" }
+      ]
+    }
+    
