@@ -31,7 +31,7 @@ for element in selected_questions:
         print("Correct answer! :)")
         score += 1
     else:
-        print("Incorrect!! :(")
+        print(f"Incorrect!!! The correct answer is {correct_answer} :(")
 
 print("You got " + str(score) + " questions correct! :)")
 print("Your Score is " + str((score / 5) * 100) + "%.")
